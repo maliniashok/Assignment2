@@ -1,12 +1,9 @@
-name: python test
-
-on:push
+name: python-test
+on: push
 
 jobs: 
   pythonjob:
     runs-on: ubuntu-latest
-	
-  
       steps: 
 	    - name: checkout
 		  uses: actions/checkout@v4
